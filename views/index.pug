@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    //- Mapbox stylesheet
+    link(href='https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.css' rel="stylesheet")
+    style 
+        include ../static/css/style.css
+    <title>Corona Map</title>
+</head>
+
+<body>
+    //- Division for our map (Our map will blit here using js written below)
+    <div id='map'></div>
+    <div id="coordinates"></div>
+</body>
+
+//- Mapbox js
+//- To explore mapbox, we can read mapbox documention (we can do almost everything related to a map using mapbox)
+script(src='https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js')
+
+script(src="../static/js/index.js")
+
+</html>

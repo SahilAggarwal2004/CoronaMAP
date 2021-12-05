@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#map {
+    width: 80vw;
+    height: 90vh;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 1px;
+}
+
+#coordinates, form {
+    margin: 10px;
+    color: white;
+    text-align: center;
+    display: block;
+}
